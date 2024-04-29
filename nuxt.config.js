@@ -41,6 +41,10 @@ export default {
     "@nuxtjs/axios",
   ],
 
+  publicRuntimeConfig: {
+    appName: process.env.APP_NAME,
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // 環境変数にAPI_URLが設定されている場合はそれが自動的に設定される
