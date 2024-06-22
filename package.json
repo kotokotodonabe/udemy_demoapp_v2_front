@@ -27,5 +27,8 @@
     "eslint": "^8.24.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/kotokotodonabe/udemy_demoapp_v2_front.git",
+  "license": "MIT"
 }
