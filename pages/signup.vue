@@ -9,7 +9,6 @@
         <user-form-name
           :name.sync="params.user.name"
         />
-        {{ params }}
         <user-form-email
           :email.sync="params.user.email"
         />
