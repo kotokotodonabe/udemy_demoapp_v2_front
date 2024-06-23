@@ -1,14 +1,18 @@
-// 共通の変数
+const redirectPath = 'projects'
+
 export const state = () => ({
   styles: {
     homeAppBarHeight: 56
+  },
+  loggedIn: {
+    redirectPath: {
+      name: redirectPath
+    }
   }
 })
 
-// 算出プロパティ
 export const getters = {}
 
-// stateの値を変更する関数
 export const mutations = {}
 
 export const actions = {}
