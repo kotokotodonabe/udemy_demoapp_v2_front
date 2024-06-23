@@ -6,7 +6,7 @@
     max-width="200"
   >
     <template
-      v-slot:activator="{ on }"
+      #activator="{ on }"
     >
       <v-btn
         icon
