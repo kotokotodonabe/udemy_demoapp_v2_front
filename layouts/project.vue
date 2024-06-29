@@ -2,7 +2,7 @@
   <v-app>
 
     <!-- toolbar -->
-    <logged-in-app-bar >
+    <logged-in-app-bar>
       <template
         #navigation-toggle-button
       >
@@ -26,6 +26,7 @@
 
 <script>
 export default {
+  middleware: 'get-project-current',
   data () {
     return {
       drawer: null

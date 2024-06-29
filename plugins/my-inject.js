@@ -1,6 +1,6 @@
 class MyInject {
   constructor(ctx) {
-    this.app = ctx.app;
+    this.app = ctx.app
   }
 
   pageTitle (routeName) {
@@ -22,5 +22,5 @@ class MyInject {
 }
 
 export default ({ app }, inject) => {
-  inject("my", new MyInject({ app }))
+  inject('my', new MyInject({ app }))
 }
