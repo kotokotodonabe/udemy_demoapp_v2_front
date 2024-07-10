@@ -52,6 +52,7 @@ export default {
   axios: {
     // 環境変数にAPI_URLが設定されている場合はそれが自動的に設定される
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    Credentials: true
   },
 
   vuetify: {
