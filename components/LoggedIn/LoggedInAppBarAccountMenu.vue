@@ -25,7 +25,7 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-subtitle>
-            <!-- TODO -->
+            {{ $auth.user.name }}
             ユーザー名が表示されます
           </v-list-item-subtitle>
         </v-list-item-content>
