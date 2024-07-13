@@ -50,6 +50,10 @@ export default {
     appName: process.env.APP_NAME
   },
 
+  router: {
+    middleware: ['silent-refresh-token']
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // 環境変数にAPI_URLが設定されている場合はそれが自動的に設定される
